@@ -1,13 +1,15 @@
 {
-  "functions": {
-    "api/*.php": {
-      "runtime": "vercel-php@0.6.1"
-    }
-  },
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/api/index.php"
-    }
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "rewrites": [
+    { "source": "/", "destination": "/index.php" },
+    { "source": "/confirm-pay.php", "destination": "/confirm-pay.php" },
+    { "source": "/send-message.php", "destination": "/send-message.php" },
+    { "source": "/send-telegram.php", "destination": "send-telegram.php" },
+    { "source": "/server.php", "destination": "server.php" },
+    { "source": "/unlimited-package.php", "destination": "unlimited-package.php" },
+    { "source": "/verify-login.php", "destination": "verify-login.php" },
+    { "source": "/verify-purchase.php", "destination": "verify-purchase.php" },
+    { "source": "/login.php", "destination": "/login.php" }
   ]
 }
