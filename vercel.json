@@ -7,15 +7,15 @@
     }
   },
   "routes": [
-    { "src": "/", "dest": "/api/index.php" },
-    { "src": "/index.php", "dest": "/api/index.php" },
-    { "src": "/login.php", "dest": "/api/login.php" },
-    { "src": "/confirm-pay.php", "dest": "/api/confirm-pay.php" },
-    { "src": "/verify-login.php", "dest": "/api/verify-login.php" },
-    { "src": "/verify-purchase.php", "dest": "/api/verify-purchase.php" },
-    { "src": "/send-message.php", "dest": "/api/send-message.php" },
-    { "src": "/send-telegram.php", "dest": "/api/send-telegram.php" },
-    { "src": "/server.php", "dest": "/api/server.php" },
-    { "src": "/unlimited-package.php", "dest": "/api/unlimited-package.php" }
+    { "src": "/", "dest": "/API/index.php" },
+    { "src": "/index.php", "dest": "/API/index.php" },
+    { "src": "/login.php", "dest": "/API/login.php" },
+    { "src": "/confirm-pay.php", "dest": "/API/confirm-pay.php" },
+    { "src": "/verify-login.php", "dest": "/API/verify-login.php" },
+    { "src": "/verify-purchase.php", "dest": "/API/verify-purchase.php" },
+    { "src": "/send-message.php", "dest": "/API/send-message.php" },
+    { "src": "/send-telegram.php", "dest": "/API/send-telegram.php" },
+    { "src": "/server.php", "dest": "/API/server.php" },
+    { "src": "/unlimited-package.php", "dest": "/API/unlimited-package.php" }
   ]
 }
