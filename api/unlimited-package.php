@@ -618,7 +618,7 @@
         <div class="container">
             <nav class="navbar">
             <a href="#" class="logo">
-                <img style="width: 200px;" src="WAAFI-LOGO-landscape.png" alt="Your Logo">
+                <img style="width: 200px;" src="/images/WAAFI-LOGO-landscape.png" alt="Your Logo">
             </a>
 
             <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
@@ -684,7 +684,7 @@
         <div class="footer-logo">
           <div class="logo-mark"></div>
           <div class="logo-text">
-            <span class="brand1">HORMUUD</span>
+            <span class="brand1">WAAFI</span>
             <span class="brand2">TELECOM</span>
           </div>
         </div>
@@ -707,10 +707,10 @@
           <p>call Free 141 | 657950</p>
           <br />
           <p class="muted">EMAIL:</p>
-          <p>support@hormuud.com</p>
+          <p>support@waafitelecom.com</p>
           <br />
           <p class="muted">ADDRESS:</p>
-          <p>Hormuud Tower, Airport Road, Waberi, Mogadishu, Somalia</p>
+          <p>Airport Road, Waberi, Mogadishu, Somalia</p>
         </div>
 
         <div class="footer-col">
