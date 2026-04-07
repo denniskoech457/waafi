@@ -194,7 +194,7 @@
     <div class="content">
       <div class="brand">
         <div class="logo-wrap">
-          <img src="WAAFI-LOGO.png" alt="Waafi Logo" style="width:56px; height:auto;">
+          <img src="/images/WAAFI-LOGO.png" alt="Waafi Logo" style="width:56px; height:auto;">
           <h1>Waafi</h1>
         </div>
         <div class="tagline">Life Just got Simplified !</div>
