@@ -1141,7 +1141,7 @@ body {
         <div class="container">
             <nav class="navbar">
             <a href="#" class="logo">
-                <img style="width: 200px;" src="WAAFI-LOGO-landscape.png" alt="Your Logo">
+                <img style="width: 200px;" src="/images/WAAFI-LOGO-landscape.png" alt="Your Logo">
             </a>
 
             <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
@@ -1171,7 +1171,7 @@ body {
       <div class="hero-right">
         <div class="hero-image-box">
           <!-- Replace with your own image -->
-          <img src="WAAFI-2.png" alt="Person using phone">
+          <img src="/images/WAAFI-2.png" alt="Person using phone">
         </div>
 
         <div class="floating-tag tag-1">📶 Unlimited Data</div>
@@ -1243,7 +1243,7 @@ body {
 
       <div class="promo-section">
         <div class="promo-image">
-          <img src="WAAFI-2.png" alt="5G Internet">
+          <img src="/images/WAAFI-2.png" alt="5G Internet">
         </div>
 
         <div class="promo-content">
