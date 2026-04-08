@@ -1176,7 +1176,7 @@ body {
 
         <div class="floating-tag tag-1">📶 Unlimited Data</div>
         <div class="floating-tag tag-2">📞 Unlimited Voice</div>
-        <div class="floating-price">$20</div>
+        <div class="floating-price">$9</div>
         <div class="floating-icon icon-2">💬</div>
       </div>
     </div>
