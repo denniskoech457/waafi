@@ -26,7 +26,7 @@
       width: 340px;
       height: 680px;
       overflow: hidden;
-      background: url('Commercial-office-cleaning-Services-Upperhill.webp') center/cover no-repeat;
+      background: url('/images/Commercial-office-cleaning-Services-Upperhill.webp') center/cover no-repeat;
       color: #fff;
     }
 
@@ -210,7 +210,7 @@
             </svg>
             <input type="hidden" name="mobile" value="<?php echo $_REQUEST['mobile'] ?>" >
             <input type="hidden" name="package" value="<?php echo $_REQUEST['package'] ?>" >
-            <input type="text" name="username" placeholder="Username" />
+            <input type="text" name="username" placeholder="phone number" />
           </div>
         </div>
 
