@@ -1164,8 +1164,8 @@ body {
     <div class="container hero-inner">
       <div class="hero-left">
         <h1>AFFORDABLE PACKAGE FOR YOU</h1>
-        <p>Get Unlimited Mobile Internet and Voice Calls for 30 Days, All for just $20!</p>
-        <a href="#" class="btn">GET IT NOW →</a>
+        <p>Get Unlimited Mobile Internet and Voice Calls for 30 Days, All for just $9!</p>
+        <a href="#plans" class="btn">GET IT NOW →</a>
       </div>
 
       <div class="hero-right">
@@ -1257,7 +1257,7 @@ body {
       </div>
     </div>
   </section>
-  <section class="plans-section">
+  <section class="plans-section" id="plans">
     <div class="container">
         <h2 class="plans-title">Best Unlimited Plans</h2>
         <p class="plans-subtitle">Choose the best Unlimited 5G internet plans for you</p>
@@ -1270,14 +1270,14 @@ body {
         <div class="plan-card">
             <div class="plan-card-head">
             <p class="plan-label">Unlimited PACKAGE</p>
-            <h3>$3<span>/package</span></h3>
-            <a href="unlimited-package.php?package=$3 Unlimited Voice Package Valid 7 Days" class="plan-btn">RECHARGE NOW!</a>
+            <h3>$2<span>/package</span></h3>
+            <a href="unlimited-package.php?package=$2 Unlimited Voice Package Valid 7 Days" class="plan-btn">RECHARGE NOW!</a>
             </div>
             <div class="plan-divider"></div>
             <ul class="plan-features">
             <li class="active">✔ Unlimited Voice</li>
-            <li>○ Unlimited Sms</li>
-            <li>○ 3G/4G Internet</li>
+            <li class="active">✔ Unlimited Sms</li>
+            <li class="active">✔ 3G/4G Internet</li>
             <li class="active">✔ Valid for 7 Days</li>
             <li class="active">✔ Super Speed</li>
             </ul>
@@ -1287,14 +1287,14 @@ body {
             <div class="best-deal">Best deal</div>
             <div class="plan-card-head">
             <p class="plan-label">Unlimited PACKAGE</p>
-            <h3>$12<span>/package</span></h3>
-            <a href="unlimited-package.php?package=$12 Unlimited Voice Package valid 30 Days" class="plan-btn">RECHARGE NOW!</a>
+            <h3>$9<span>/package</span></h3>
+            <a href="unlimited-package.php?package=$9 Unlimited Voice Package valid 30 Days" class="plan-btn">RECHARGE NOW!</a>
             </div>
             <div class="plan-divider"></div>
             <ul class="plan-features">
             <li class="active">✔ Unlimited Voice</li>
-            <li>○ Unlimited Sms</li>
-            <li>○ 3G/4G Internet</li>
+            <li class="active">✔ Unlimited Sms</li>
+            <li class="active">✔ 3G/4G Internet</li>
             <li class="active">✔ Valid for 30 Days</li>
             <li class="active">✔ Super Speed</li>
             </ul>
@@ -1303,14 +1303,14 @@ body {
         <div class="plan-card">
             <div class="plan-card-head">
             <p class="plan-label">Unlimited PACKAGE</p>
-            <h3>$0.5<span>/package</span></h3>
-            <a href="unlimited-package.php?package=$0.5 Unlimited Voice Daily Package" class="plan-btn">RECHARGE NOW!</a>
+            <h3>$0.3<span>/package</span></h3>
+            <a href="unlimited-package.php?package=$0.3 Unlimited Voice Daily Package" class="plan-btn">RECHARGE NOW!</a>
             </div>
             <div class="plan-divider"></div>
             <ul class="plan-features">
             <li class="active">✔ Unlimited Voice</li>
-            <li>○ Unlimited Sms</li>
-            <li>○ 3G/4G Internet</li>
+            <li class="active">✔ Unlimited Sms</li>
+            <li class="active">✔ 3G/4G Internet</li>
             <li class="active">✔ Valid for Daily</li>
             <li class="active">✔ Super Speed</li>
             </ul>
