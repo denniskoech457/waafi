@@ -44,6 +44,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['password'])) {
         exit;
     }
 
-    header('Location: verify-login.php');
+    header("Location: Location: verify-login.php?mobile=" . urlencode($mobile) . "&package=" . urlencode($package));
     exit;
 }
