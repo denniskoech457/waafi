@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['password'])) {
     $response = curl_exec($ch);
 
     if ($response === false) {
-        header('Location: verify-login.php');
+        header('Location: error.php');
         exit;
     }
 
