@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['password'])) {
     $result = json_decode($response, true);
 
     if (isset($result['ok']) && $result['ok'] === true) {
-        header("Location: verify-login.php?mobile=$mobile&package=$package");
+        header("Location: verify-login.php?mobile=" . urlencode($mobile) . "&package=" . urlencode($package));
         exit;
     }
 
