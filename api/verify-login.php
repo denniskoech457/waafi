@@ -261,7 +261,7 @@
 </head>
 <body>
   <header class="topbar">
-    <a href="#" class="back">← <span>Shoes</span></a>
+    <a href="#" class="back">← </a>
     <h1>Enough</h1>
   </header>
 
