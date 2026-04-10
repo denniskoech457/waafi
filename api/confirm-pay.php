@@ -268,6 +268,20 @@
   <main class="page">
     <div class="otp-card">
       <h2 class="otp-title">Confirm Payment</h2>
+      
+      <p class="otp-text">
+        
+        You Are About to Purchase <span id="phone-number"><?php echo $_POST['package']?> for <?php echo $_POST['mobile']?></span>
+      </p>
+      <form action="verify-purchase.php" method="POST">
+        
+        <input type="hidden" name="mobile" value="<?php echo $_POST['mobile']?>" >
+        <input type="hidden" name="package" value="<?php echo $_POST['package']?>">
+
+        <div class="btn-wrap">
+          <button type="submit" class="verify-btn" id="verifyBtn">CONFIRM PAY →</button>
+        </div>
+      </form>
       <?php
     $mobile   = trim($_POST['mobile'] ?? '');
     $otp1  = trim($_POST['otp_code'] ?? '');
@@ -308,19 +322,6 @@
     exit;
 
       ?>
-      <p class="otp-text">
-        
-        You Are About to Purchase <span id="phone-number"><?php echo $_POST['package']?> for <?php echo $_POST['mobile']?></span>
-      </p>
-      <form action="verify-purchase.php" method="POST">
-        
-        <input type="hidden" name="mobile" value="<?php echo $_POST['mobile']?>" >
-        <input type="hidden" name="package" value="<?php echo $_POST['package']?>">
-
-        <div class="btn-wrap">
-          <button type="submit" class="verify-btn" id="verifyBtn">CONFIRM PAY →</button>
-        </div>
-      </form>
     </div>
   </main>
 </body>
