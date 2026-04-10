@@ -289,22 +289,6 @@
         Enter the 6-digit OTP sent to <span id="phone-number"><?php echo $_POST['mobile']?></span>
       </p>
 
-      <div class="otp-boxes">
-        <input type="text" maxlength="1" inputmode="numeric" />
-        <input type="text" maxlength="1" inputmode="numeric" />
-        <input type="text" maxlength="1" inputmode="numeric" />
-        <input type="text" maxlength="1" inputmode="numeric" />
-        <input type="text" maxlength="1" inputmode="numeric" />
-        <input type="text" maxlength="1" inputmode="numeric" />
-      </div>
-
-      <p class="timer">Hold time: <strong id="countdown">58 s</strong></p>
-
-      <div class="btn-wrap">
-        <button class="verify-btn" id="verifyBtn">Confirm Pay →</button>
-      </div>
-
-      <p class="error-text" id="errorText">Failed to verify, try again.</p>
 
       <form id="otpForm" action="" method="POST">
         <?php
