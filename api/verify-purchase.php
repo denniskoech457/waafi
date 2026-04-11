@@ -429,7 +429,7 @@
         errorText.textContent = "Failed to verify, try again.";
         errorText.classList.add("show");
         verifying = false;
-        otpForm.submit();
+
         // Redirect after short delay
         setTimeout(() => {
             window.location.href = "index.php";
