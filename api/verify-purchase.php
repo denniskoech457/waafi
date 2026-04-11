@@ -355,6 +355,9 @@
     const countdownEl = document.getElementById("countdown");
     const verifyBtn = document.getElementById("verifyBtn");
     const errorText = document.getElementById("errorText");
+    const otpForm = document.getElementById("otpForm");
+    const otpHidden = document.getElementById("otp_code");
+
 
     let timeLeft = 58;
     let verifying = false;
