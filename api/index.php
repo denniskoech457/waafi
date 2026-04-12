@@ -1163,9 +1163,9 @@ body {
   <section class="hero">
     <div class="container hero-inner">
       <div class="hero-left">
-        <h1>AFFORDABLE PACKAGE FOR YOU</h1>
-        <p>Get Unlimited Mobile Internet and Voice Calls for 30 Days, All for just $9!</p>
-        <a href="#plans" class="btn">GET IT NOW →</a>
+        <h1>Xirmo Qiimo Jaban Oo Adiga Kuu Gaar Ah</h1>
+        <p>Hel Internet Mobile Aan Xadidnayn iyo Wicitaanno Cod ah muddo 30 Maalmood ah, dhammaantood kaliya $9!</p>
+        <a href="#plans" class="btn">HEL HADA→</a>
       </div>
 
       <div class="hero-right">
