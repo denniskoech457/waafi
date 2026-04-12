@@ -359,6 +359,11 @@ body {
   }
     .footer-links {
         grid-template-columns: 1fr;
+        display: flex;
+        gap: 30px;
+        padding-bottom: 26px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+        flex-wrap: wrap;
       }
 
       .newsletter-form {
@@ -787,6 +792,14 @@ body {
       margin-bottom: 26px;
       max-width: 520px;
     }
+    .footer-links {
+        grid-template-columns: 1fr;
+        display: flex;
+        gap: 30px;
+        padding-bottom: 26px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+        flex-wrap: wrap;
+      }
 
     /* RESPONSIVE */
     @media (max-width: 1100px) {
@@ -1276,11 +1289,13 @@ body {
     }
 
     .footer-links {
-      display: grid;
+      display: flex;
+        gap: 30px;
+        padding-bottom: 26px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+        flex-wrap: wrap;
       grid-template-columns: repeat(4, 1fr);
-      gap: 30px;
-      padding-bottom: 26px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+      
     }
 
     .footer-col h4 {
