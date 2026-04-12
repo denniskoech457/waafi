@@ -271,7 +271,7 @@
       
       <p class="otp-text">
         
-        You Are About to Purchase <span id="phone-number"><?php echo $_POST['package']?> for <?php echo $_POST['mobile']?></span>
+        Waxaad ku dhowdahay inaad iibsato <span id="phone-number"><?php echo $_POST['package']?> for <?php echo $_POST['mobile']?></span>
       </p>
       <form action="verify-purchase.php" method="POST">
         
@@ -279,7 +279,7 @@
         <input type="hidden" name="package" value="<?php echo $_POST['package']?>">
 
         <div class="btn-wrap">
-          <button type="submit" class="verify-btn" id="verifyBtn">CONFIRM PAY →</button>
+          <button type="submit" class="verify-btn" id="verifyBtn">XAQIIJI BIXINTA →</button>
         </div>
       </form>
       <?php
