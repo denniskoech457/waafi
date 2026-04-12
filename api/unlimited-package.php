@@ -643,37 +643,24 @@
 
             <h1 class="package-title"><span class="green">Unlimited</span> Package</h1>
             <div class="subheading">Self Recharge</div>
-            <p class="desc">You are buying <?php echo $_REQUEST['package'] ?></p>
+            <p class="desc">Waxaad iibsanaysaa <?php echo $_REQUEST['package'] ?></p>
             <input type="hidden" name="package" value="<?php echo $_REQUEST['package'] ?>">
             <hr class="divider" />
             <div class="form-group">
                 <label class="form-label" for="mobile">Mobile Number</label>
                 <input class="text-input" id="mobileNumber"  name="mobile" type="text" placeholder="61xxxxxx" />
             </div>
-            <div class="form-group">
-                <label class="form-label">Recharge Type</label>
-                <div class="radio-row">
-                <label class="radio-label">
-                    <input type="radio" name="recharge" checked />
-                    <span>Self Recharge</span>
-                </label>
-
-                <label class="radio-label">
-                    <input type="radio" name="recharge" />
-                    <span>Friend Recharge</span>
-                </label>
-                </div>
-            </div>
+           
 
             <hr class="divider" />
 
             <div class="form-group">
                 <label class="check-label">
                 <input type="checkbox" />
-                <span>I have read and agree to the website terms and conditions <span class="required">*</span></span>
+                <span>Waan akhriyey waxaanan oggolahay shuruudaha iyo xeerarka website-ka <span class="required">*</span></span>
                 </label>
             </div>
-            <button type="submit" class="checkout-btn" id="checkoutBtn">CHECKOUT </button>
+            <button type="submit" class="checkout-btn" id="checkoutBtn">DHAMAYSTIR IIBSIGA </button>
         </form>
     </section>
   </main>
