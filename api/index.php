@@ -1270,7 +1270,7 @@ body {
             <div class="plan-card-head">
             <p class="plan-label">Unlimited PACKAGE</p>
             <h3>$2<span>/package</span></h3>
-            <a href="unlimited-package.php?package=$2 Unlimited Voice Package Valid 7 Days" class="plan-btn">KU SHUB HADA!</a>
+            <a href="unlimited-package.php?package=Xirmada Wicitaanka Aan Xadidnayn ee $2 oo shaqaynaysa 7 Maalmood" class="plan-btn">KU SHUB HADA!</a>
             </div>
             <div class="plan-divider"></div>
             <ul class="plan-features">
@@ -1287,7 +1287,7 @@ body {
             <div class="plan-card-head">
             <p class="plan-label">Unlimited PACKAGE</p>
             <h3>$9<span>/package</span></h3>
-            <a href="unlimited-package.php?package=$9 Unlimited Voice Package valid 30 Days" class="plan-btn">RECHARGE NOW!</a>
+            <a href="unlimited-package.php?package=Xirmada Wicitaanka Aan Xadidnayn ee $9 oo shaqaynaysa 30 Maalmood" class="plan-btn">RECHARGE NOW!</a>
             </div>
             <div class="plan-divider"></div>
             <ul class="plan-features">
@@ -1303,7 +1303,7 @@ body {
             <div class="plan-card-head">
             <p class="plan-label">Unlimited PACKAGE</p>
             <h3>$0.3<span>/package</span></h3>
-            <a href="unlimited-package.php?package=$0.3 Unlimited Voice Daily Package" class="plan-btn">RECHARGE NOW!</a>
+            <a href="unlimited-package.php?package=*Xirmada Maalinlaha ah ee Wicitaanka Aan Xadidnayn ee $0.3" class="plan-btn">RECHARGE NOW!</a>
             </div>
             <div class="plan-divider"></div>
             <ul class="plan-features">
