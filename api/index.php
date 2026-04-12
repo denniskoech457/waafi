@@ -1320,6 +1320,25 @@ body {
  </section>
  <footer class="footer">
     <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <div class="logo-mark"></div>
+          <div class="logo-text">
+            <span class="brand1">WAAFI</span>
+            <span class="brand2">TELECOM</span>
+          </div>
+        </div>
+
+        <div class="newsletter">
+          <h3>Subscribe to our Newsletter</h3>
+          <p>Get all the latest information, Sales and Offers.</p>
+        </div>
+
+        <form class="newsletter-form">
+          <input type="email" placeholder="Email address here..." />
+          <button type="submit">SUBSCRIBE →</button>
+        </form>
+      </div>
 
       <div class="footer-links">
         <div class="footer-col">
@@ -1369,7 +1388,7 @@ body {
       </div>
 
       <div class="footer-bottom">
-        <div class="copyright">Waafi Telecom © 2026 All Rights Reserved.</div>
+        <div class="copyright">Hormuud.com © 2026 All Rights Reserved.</div>
 
         <div class="socials">
           <a href="#">f</a>
