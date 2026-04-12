@@ -1192,7 +1192,7 @@ body {
           <div class="feature-icon">🖧</div>
           <div>
             <h3>Fiber Internet</h3>
-            <p>Broadband for your home and office</p>
+            <p>Broadband gurigaaga iyo xafiiskaaga</p>
           </div>
         </div>
 
@@ -1200,7 +1200,7 @@ body {
           <div class="feature-icon">📱</div>
           <div>
             <h3>Mobile Internet</h3>
-            <p>The cheapest mobile internet in Africa</p>
+            <p>Internetka mobilka ugu jaban Afrika</p>
           </div>
         </div>
 
@@ -1208,7 +1208,7 @@ body {
           <div class="feature-icon">💵</div>
           <div>
             <h3>Evc Plus</h3>
-            <p>One of Africa's most secure mobile money platforms</p>
+            <p>Mid ka mid ah nidaamyada lacagta mobilka ee ugu amniga badan Afrika</p>
           </div>
         </div>
       </div>
@@ -1217,9 +1217,9 @@ body {
 
   <section class="unlimited-section">
     <div class="container">
-      <h2 class="section-title">Unlimited Data</h2>
+      <h2 class="section-title">Data Aan Xadidnayn</h2>
       <p class="section-desc">
-        Unlimited really means no limits. Start browsing today with a daily, weekly, or monthly plan.
+        Unlimited runtii waxay la macno tahay xad la’aan. Bilow isticmaalka maanta adigoo dooranaya qorshe maalinle, toddobaadle, ama bille ah.
       </p>
 
       <div class="benefits">
@@ -1247,20 +1247,19 @@ body {
         </div>
 
         <div class="promo-content">
-          <h2>Truly unlimited 5G Internet.</h2>
+          <h2>Internet 5G oo dhab ahaan aan xad lahayn.</h2>
           <p>
-            Binge your favourite shows all day long, play and stream your favourite games,
-            and video call family around the world, with Hormuud’s unlimited packages.
+            Daawo barnaamijyada aad ugu jeceshahay maalinta oo dhan, ciyaar oo si toos ah u daawo ciyaaraha aad jeceshahay, isla markaana wicitaan muuqaal ah kula xiriir qoyskaaga meel kasta oo dunida ka mid ah, adigoo adeegsanaya xirmooyinka aan xadka lahayn ee Hormuud.
           </p>
-          <a href="#" class="btn">GET STARTED NOW →</a>
+          <a href="#" class="btn">BILOW HADA →</a>
         </div>
       </div>
     </div>
   </section>
   <section class="plans-section" id="plans">
     <div class="container">
-        <h2 class="plans-title">Best Unlimited Plans</h2>
-        <p class="plans-subtitle">Choose the best Unlimited 5G internet plans for you</p>
+        <h2 class="plans-title">Qorshayaasha Unlimited-ka Ugu Fiican</h2>
+        <p class="plans-subtitle">Dooro qorshayaasha internetka Unlimited 5G ee kuugu fiican.</p>
 
         <div class="plan-switch">
         <button class="switch-btn active">Unlimited</button>
@@ -1271,7 +1270,7 @@ body {
             <div class="plan-card-head">
             <p class="plan-label">Unlimited PACKAGE</p>
             <h3>$2<span>/package</span></h3>
-            <a href="unlimited-package.php?package=$2 Unlimited Voice Package Valid 7 Days" class="plan-btn">RECHARGE NOW!</a>
+            <a href="unlimited-package.php?package=$2 Unlimited Voice Package Valid 7 Days" class="plan-btn">KU SHUB HADA!</a>
             </div>
             <div class="plan-divider"></div>
             <ul class="plan-features">
