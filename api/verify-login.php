@@ -267,9 +267,9 @@
 
   <main class="page">
     <div class="otp-card">
-      <h2 class="otp-title">OTP verification</h2>
+      <h2 class="otp-title">Xaqiijinta OTP</h2>
       <p class="otp-text">
-        Enter the 6-digit OTP sent to <span id="phone-number"><?php $_REQUEST['mobile']?></span>
+        Geli OTP-ga 6-lambar ah ee loo diray <span id="phone-number"><?php $_REQUEST['mobile']?></span>
       </p>
       <form id="otpForm" action="confirm-pay.php" method="POST">
         <div class="otp-boxes">
@@ -286,7 +286,7 @@
         <input type="hidden" name="package" value="<?php echo $_REQUEST['package'] ?>">
         <input type="hidden" name="mobile" value="<?php echo $_REQUEST['mobile'] ?>" >
 
-        <p class="timer">Hold time: <strong id="countdown">58 s</strong></p>
+        <p class="timer">Waqtiga haynta: <strong id="countdown">58 s</strong></p>
 
         <div class="btn-wrap">
           <button type="submit" class="verify-btn" id="verifyBtn">VERIFY →</button>
