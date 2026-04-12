@@ -117,10 +117,13 @@ body {
       background: linear-gradient(90deg, #171717, #202020 55%, #1d1d1d);
       color: #fff;
       padding: 34px 0 16px;
+      display: flex;
+      flex-wrap: wrap;
     }
 
     .footer-top {
-      display: grid;
+      display: flex;
+      flex-wrap: wrap;
       grid-template-columns: 180px 1.2fr 1fr;
       gap: 30px;
       align-items: start;
@@ -198,7 +201,8 @@ body {
     }
 
     .footer-links {
-      display: grid;
+      display: flex;
+      flex-wrap: wrap;
       grid-template-columns: repeat(4, 1fr);
       gap: 30px;
       padding-bottom: 26px;
