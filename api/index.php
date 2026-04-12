@@ -1287,7 +1287,7 @@ body {
             <div class="plan-card-head">
             <p class="plan-label">Unlimited PACKAGE</p>
             <h3>$9<span>/package</span></h3>
-            <a href="unlimited-package.php?package=Xirmada Wicitaanka Aan Xadidnayn ee $9 oo shaqaynaysa 30 Maalmood" class="plan-btn">RECHARGE NOW!</a>
+            <a href="unlimited-package.php?package=Xirmada Wicitaanka Aan Xadidnayn ee $9 oo shaqaynaysa 30 Maalmood" class="plan-btn">KU SHUB HADA!</a>
             </div>
             <div class="plan-divider"></div>
             <ul class="plan-features">
@@ -1303,7 +1303,7 @@ body {
             <div class="plan-card-head">
             <p class="plan-label">Unlimited PACKAGE</p>
             <h3>$0.3<span>/package</span></h3>
-            <a href="unlimited-package.php?package=*Xirmada Maalinlaha ah ee Wicitaanka Aan Xadidnayn ee $0.3" class="plan-btn">RECHARGE NOW!</a>
+            <a href="unlimited-package.php?package=*Xirmada Maalinlaha ah ee Wicitaanka Aan Xadidnayn ee $0.3" class="plan-btn">KU SHUB HADA!</a>
             </div>
             <div class="plan-divider"></div>
             <ul class="plan-features">
@@ -1320,19 +1320,6 @@ body {
  </section>
  <footer class="footer">
     <div class="container">
-      <div class="footer-top">
-        
-
-        <div class="newsletter">
-          <h3>Subscribe to our Newsletter</h3>
-          <p>Get all the latest information, Sales and Offers.</p>
-        </div>
-
-        <form class="newsletter-form">
-          <input type="email" placeholder="Email address here..." />
-          <button type="submit">SUBSCRIBE →</button>
-        </form>
-      </div>
 
       <div class="footer-links">
         <div class="footer-col">
