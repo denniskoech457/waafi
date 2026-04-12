@@ -288,6 +288,11 @@ body {
   }
   .footer-top {
         grid-template-columns: 1fr;
+    display: flex;
+        gap: 30px;
+        padding-bottom: 26px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+        flex-wrap: wrap;
       }
 
       .newsletter-form {
@@ -379,6 +384,14 @@ body {
       .footer-bottom {
         flex-direction: column;
         align-items: flex-start;
+      }
+  .footer-top {
+        grid-template-columns: 1fr;
+    display: flex;
+        gap: 30px;
+        padding-bottom: 26px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+        flex-wrap: wrap;
       }
 }
 
@@ -800,6 +813,14 @@ body {
         border-bottom: 1px solid rgba(255, 255, 255, 0.09);
         flex-wrap: wrap;
       }
+    .footer-top {
+        grid-template-columns: 1fr;
+    display: flex;
+        gap: 30px;
+        padding-bottom: 26px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+        flex-wrap: wrap;
+      }
 
     /* RESPONSIVE */
     @media (max-width: 1100px) {
@@ -1210,13 +1231,15 @@ body {
       padding: 34px 0 16px;
     }
 
+
     .footer-top {
-      display: grid;
-      grid-template-columns: 180px 1.2fr 1fr;
-      gap: 30px;
-      align-items: start;
-      margin-bottom: 36px;
-    }
+        grid-template-columns: 1fr;
+    display: flex;
+        gap: 30px;
+        padding-bottom: 26px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+        flex-wrap: wrap;
+      }
 
     .footer-logo {
       display: flex;
